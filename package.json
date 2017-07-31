@@ -1,0 +1,21 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "The classical fizz-buzz game simulator.",
+  "author": "Zsolt Turi <hello@turizsolt.hu>",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turizsolt/fizzbuzz.git"
+  },
+  "scripts": {
+    "start": "nodejs main.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
