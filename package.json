@@ -9,7 +9,7 @@
     "url": "https://github.com/turizsolt/fizzbuzz.git"
   },
   "scripts": {
-    "start": "nodejs main.js",
+    "start": "nodejs src/main.js",
     "test": "mocha"
   },
   "devDependencies": {
